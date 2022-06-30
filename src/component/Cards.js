@@ -26,10 +26,10 @@ function Cards() {
         name: "Mary",
         gpa: 2.6
     }
-  ];
+  ]
 
-  return (
-    <div>Cards</div>
+  return ({cardInfo}
+
   )
 }
 
