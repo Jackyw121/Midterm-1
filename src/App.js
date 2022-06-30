@@ -4,6 +4,7 @@ import Home from './component/Home';
 import Contact from './component/Contact';
 import About from './component/About';
 import Student from './component/Student';
+import { Card } from 'react-bootstrap';
 import {
   BrowserRouter as Router,
   Routes,
@@ -23,7 +24,7 @@ class App extends Component {
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to = "/">Student</Link>
+        <Link to = "/student">Student</Link>
       </li>
       <li>
         <Link to="/about">About Us</Link>
