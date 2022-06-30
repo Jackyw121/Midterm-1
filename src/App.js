@@ -4,13 +4,13 @@ import Home from './component/Home';
 import Contact from './component/Contact';
 import About from './component/About';
 import Student from './component/Student';
-import { Card } from 'react-bootstrap';
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Link
 } from 'react-router-dom';
+
 
 
 
