@@ -3,7 +3,7 @@ import { Component } from 'react';
 import Home from './component/Home';
 import Contact from './component/Contact';
 import About from './component/About';
-import Students from './component/Student';
+import Student from './component/Student';
 import {
   BrowserRouter as Router,
   Routes,
@@ -34,7 +34,7 @@ class App extends Component {
     </ul>
     <Routes>
     <Route exact path='/' element={< Home />}></Route>
-    <Route exact path='/student' element={< Students />}></Route>
+    <Route exact path='/student' element={< Student />}></Route>
     <Route exact path='/about' element={< About />}></Route>
     <Route exact path='/contact' element={< Contact />}></Route>
 </Routes>
