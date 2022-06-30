@@ -1,6 +1,6 @@
 import React from 'react';
  
-function About () {
+function Students () {
     return <div>
         <h2>GeeksforGeeks is a computer science portal for geeks!</h2>
  
@@ -10,4 +10,4 @@ function About () {
         </a>
     </div>
 }
-export default About;
+export default Students;

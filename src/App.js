@@ -3,13 +3,13 @@ import { Component } from 'react';
 import Home from './component/Home';
 import Contact from './component/Contact';
 import About from './component/About';
+import Students from './component/Student';
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Link
 } from 'react-router-dom';
-import Cards1 from './component/Cards1';
 
 
 
@@ -18,10 +18,12 @@ class App extends Component {
     return (
     <Router>
 <div className="App">
-      <Cards1/>
     <ul>
       <li>
         <Link to="/">Home</Link>
+      </li>
+      <li>
+        <Link to = "/">Student</Link>
       </li>
       <li>
         <Link to="/about">About Us</Link>
@@ -32,6 +34,7 @@ class App extends Component {
     </ul>
     <Routes>
     <Route exact path='/' element={< Home />}></Route>
+    <Route exact path='/student' element={< Students />}></Route>
     <Route exact path='/about' element={< About />}></Route>
     <Route exact path='/contact' element={< Contact />}></Route>
 </Routes>
