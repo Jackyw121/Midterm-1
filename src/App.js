@@ -9,6 +9,7 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import Cards1 from './component/Cards1';
 
 
 
@@ -16,11 +17,8 @@ class App extends Component {
   render() {
     return (
     <Router>
-
-
-
-
 <div className="App">
+      <Cards1/>
     <ul>
       <li>
         <Link to="/">Home</Link>
