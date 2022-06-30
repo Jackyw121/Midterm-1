@@ -1,4 +1,7 @@
-const cardInfo = [
+import React from 'react'
+
+function Cards() {
+  const cardInfo = [
     {
       image:
         "s1.png",
@@ -24,3 +27,10 @@ const cardInfo = [
         gpa: 2.6
     }
   ];
+
+  return (
+    <div>Cards</div>
+  )
+}
+
+export default Cards
