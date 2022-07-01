@@ -9,32 +9,35 @@ function CardList() {
     const cardInfo = [
         {
           image:
-            "s1.png",
+          s1,
           name: "Mike",
           gpa: 3.8
         },
         {
           image:
-            "s2.png",
+            s2,
             name: "Manal",
             gpa: 3.6
         },
         {
           image:
-            "s3.png",
+            s3,
             name: "Moe",
             gpa: 3.2
         },
         {
           image:
-            "s4.png",
+            s4,
             name: "Mary",
             gpa: 2.6
         }
-      
-    ]
-const studentList = cardInfo.map(student => <Student key ={student.name} student = {student}/>)
-  return <div>{studentList}</div>
-}
+      ];
+    
+      const personList = cardInfo.map(students => <Student students = {students}/>)
+      return <div>{personList}</div>
+   
+    
+  }
+
 
 export default CardList
