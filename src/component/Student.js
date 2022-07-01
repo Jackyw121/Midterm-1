@@ -3,7 +3,6 @@ import Card from "react-bootstrap/Card"
 import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
 import Button from 'react-bootstrap/esm/Button';
-import s1 from './img/s1.png'
 
 
 function Student ({students}) {
